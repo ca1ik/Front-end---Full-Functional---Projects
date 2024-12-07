@@ -1,0 +1,66 @@
+header {
+    
+    display: flex; /* Header içindeki elemanları yan yana hizalar */
+    align-items: center; /* Elemanları dikey olarak ortalar */
+    justify-content: space-between; /* Elemanlar arasında boşluk bırakır */
+    margin: 22px;
+}
+body
+{
+        font-family: "Antic Slab", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+.h1
+{
+    display: inline-block;
+    font-weight: 300px;
+}
+.links
+{
+    display: inline-block;
+    
+    
+}
+.links li
+{
+    display: inline-block;
+    
+    
+    margin-right: 150px;
+    font-size: 60px;
+    
+}
+.links a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+a.active
+{
+    border-bottom: 1px solid black;
+}
+.Gallery
+{
+    padding: 15px;
+}
+
+.card
+{
+    display: inline-block;
+    width: 50%;
+}
+.Card img
+{
+    height: 2000px;
+    width: 100%;
+    object-fit: contain;
+}
+.Card img:hover
+{
+    opacity: 33;
+}
