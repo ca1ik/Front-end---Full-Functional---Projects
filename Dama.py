@@ -126,6 +126,7 @@ def simulate_games():
         elif all(board[x][y] == 'S' for x, y in TARGET_AREA_S):
             print("Siyah kazandı!\n")
             scores["S"] += 1
+            //giveChances
     print("Skorlar:", scores)
 
 # Simülasyonu başlat
