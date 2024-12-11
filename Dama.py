@@ -117,6 +117,7 @@ def simulate_games():
             _, move = minimax(board, 3, True, float('-inf'), float('inf'), current_player)
             if move is None:
                 break  # Hareket kalmadıysa çık
+                
             board = apply_move(board, move, current_player)
             print_board(board)
             current_player = 'S' if current_player == 'B' else 'B'
